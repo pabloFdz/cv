@@ -8,5 +8,14 @@
   		body{height: 100vh; margin: 0; padding: 0; overflow: hidden;}
   	</style>
     <embed src="https://pablofdz.github.io/cv/cv.pdf" width="100%" height="1200px"/>
+    <script type="text/javascript">
+    	function isMobile() {
+    	  const regex = /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+    	  return regex.test(navigator.userAgent);
+    	}
+    	if (isMobile()) {
+    	  window.location.href = "https://pablofdz.github.io/cv/cv.pdf";
+    	}
+    </script>
   </body>
 </html>
